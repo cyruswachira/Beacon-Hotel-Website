@@ -32,9 +32,13 @@ function renderMeal(meal){
 
     const mealsContainer = document.querySelector('#meals')
 
-    const parentDiv = document.createElement('div')
+    const mainDiv = document.createElement('div')
 
-    parentDiv.classList.add('card')
+    mainDiv.classList.add('card')
+
+    mainDiv.style.width = '320px';
+
+    mainDiv.style.height = '310px';
 
     const image = document.createElement('img')
     
@@ -48,7 +52,7 @@ function renderMeal(meal){
 
      image.alt = meal.strCategory
 
-     parentDiv.appendChild(image)
+     mainDiv.appendChild(image)
 
      const cardBody = document.createElement('div')
 
@@ -76,10 +80,10 @@ function renderMeal(meal){
 
      cardBody.appendChild(button)
 
-    parentDiv.appendChild(image)
+    mainDiv.appendChild(image)
 
-     parentDiv.appendChild(cardBody)
+    mainDiv.appendChild(cardBody)
 
-     mealsContainer.appendChild(parentDiv)
+     mealsContainer.appendChild(mainDiv)
 
 }

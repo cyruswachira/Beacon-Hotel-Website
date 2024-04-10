@@ -167,9 +167,9 @@ body, html {
 .card{
     position: relative;
     top: -230px; 
-    left: 50px; 
-    width: 20rem; 
-    height: 30rem; 
+    left: 50px;
+    width: 320px;
+    height: 410px;  
 } 
 
 .card-body {
