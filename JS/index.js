@@ -38,25 +38,47 @@ function renderMeal(meal){
 
     const image = document.createElement('img')
     
-     image.classList.add("card-img-top ")
+     image.classList.add('card-img-top','mt-2');
 
      image.height = 200;
 
      image.width = 200;
 
-     image.position = 'relative'
-
-     image.top = '-230px'
-
-     image.left = '100px'
-
      image.src = meal.strCategoryThumb
 
      image.alt = meal.strCategory
 
-     image.style.position = 'relative'
-
      parentDiv.appendChild(image)
+
+     const cardBody = document.createElement('div')
+
+     cardBody.classList.add('card-body')
+
+     const cardTitle = document.createElement('h5')
+
+     cardTitle.classList.add('card-title')
+
+     cardTitle.innerText = meal.strCategory
+
+     const button = document.createElement('button')
+
+     button.classList.add('btn','btn-primary')
+
+     button.textContent = 'Place Order';
+    
+    button.addEventListener('click', () => {
+    alert('Order placed');
+    });
+
+     cardBody.appendChild(cardTitle )
+
+     document.body.appendChild(button);
+
+     cardBody.appendChild(button)
+
+    parentDiv.appendChild(image)
+
+     parentDiv.appendChild(cardBody)
 
      mealsContainer.appendChild(parentDiv)
 

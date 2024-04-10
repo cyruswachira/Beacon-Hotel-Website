@@ -167,15 +167,20 @@ body, html {
 .card{
     position: relative;
     top: -230px; 
-    left: 100px; 
-}
+    left: 50px; 
+    width: 20rem; 
+    height: 30rem; 
+} 
 
-.menu-grid {
-    grid-column: 2 / 3; /* Adjust the grid-column to your liking */
+.card-body {
+    height: 200px;
   }
 
-
-
+  .card-img-top {
+    width: 50%;
+    height: 200px;
+    object-fit: contain;
+  }
 
 .hotel{
     background-color: #044;
