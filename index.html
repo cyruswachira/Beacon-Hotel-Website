@@ -32,7 +32,7 @@
       </div>
     </header>
 
-    <section class="about-section">
+    <section class="about-place">
       <div class="about-logo">
         <img src="/Assets/About-logo.jpeg" alt="" />
       </div>
@@ -53,7 +53,7 @@
 
         <h1 class="text-overlay">EAT & DRINK</h1>
 
-        <a href="#" class="button">VIEW OUR MENU</a>
+        <button class="view-button">VIEW OUR MENU</button>
       </div>
     </section>
 
@@ -64,25 +64,45 @@
 
       <div class="container mt-5">
         <div class="row row-cols-xl gap-2" id="meals">
-          <div class="card" style="width: 320px; height: 310px;">
-            <img
-              src="/Assets/About-logo.jpeg"
-              class="card-img-top mt-2"
+          <div class="card bg-secondary " style="width: 320px; height: 310px;">
+            <img id="food-image"
+              src="/Assets/pexels-photo-338713.webp"
+              class="card-img-top mt-2 img-fluid"
               alt="..."
               height="200"
             />
             <div class="card-body ">
 
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">Juice</h5>
               
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <a href="#" class="btn btn-primary" style="background-color: #f00;" onclick="alert('Order placed')">Place order</a>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <main class="hotel"></main>
+    <section class="about-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h2>About Us</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.
+            </p>
+            <a href="#" class="btn btn-primary">Learn More</a>
+          </div>
+          <div class="col-md-6">
+            <img src="/Assets/About-logo.jpeg" alt="About Us" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <main class="hotel">
+      
+
+    </main>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/JS/index.js"></script>

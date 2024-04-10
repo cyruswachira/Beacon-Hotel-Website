@@ -48,7 +48,7 @@ body, html {
     
 }
 
-.about-section {
+.about-place {
     background-color:#044;
     padding: 50px 20px;
     text-align: center;
@@ -121,7 +121,7 @@ body, html {
     text-transform: uppercase
 }
 
-.button {
+.view-button {
     position: absolute;
     top: 80%;
     left: 50%;
@@ -137,7 +137,7 @@ body, html {
     transition: background-color 0.3s ease;
 }
 
-.button:hover {
+.view-button:hover {
     background-color: #ff4500;
 }
 
@@ -169,7 +169,8 @@ body, html {
     top: -230px; 
     left: 50px;
     width: 320px;
-    height: 410px;  
+    height: 410px; 
+    background-color: #f00; 
 } 
 
 .card-body {
@@ -181,12 +182,51 @@ body, html {
     height: 200px;
     object-fit: contain;
   }
+  
+#food-image{
+    width: 295px;
+    height: 185px;
+}
 
 .hotel{
     background-color: #044;
     padding: 700px 100px;
 }
 
+.about-section {
+    background-color:black;
+    padding: 50px 0;
+  }
+  
+  .about-section h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .about-section p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+  
+  .about-section.btn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .about-section.btn:hover {
+    background-color: #555;
+  }
+  
+  .about-section img {
+    width: 100%;
+    height: auto;
+  }
 
 
 

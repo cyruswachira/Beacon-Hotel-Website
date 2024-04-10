@@ -2,6 +2,7 @@ document .addEventListener('DOMContentLoaded', () => {
 
     fetchMeals()
 
+
 })
 
 const BASE_URL = 'http://localhost:3000/categories'
@@ -40,6 +41,8 @@ function renderMeal(meal){
 
     mainDiv.style.height = '310px';
 
+    mainDiv.style.backgroundColor = '#6c757d';
+
     const image = document.createElement('img')
     
      image.classList.add('card-img-top','mt-2');
@@ -69,6 +72,8 @@ function renderMeal(meal){
      button.classList.add('btn','btn-primary')
 
      button.textContent = 'Place Order';
+
+     button.style.backgroundColor = '#f00';
     
     button.addEventListener('click', () => {
     alert('Order placed');
@@ -87,3 +92,17 @@ function renderMeal(meal){
      mealsContainer.appendChild(mainDiv)
 
 }
+
+
+const menuButton = document.querySelector('.view-button');
+menuButton.addEventListener('click', () => {
+  const mealsSection = document.getElementById('meals');
+  window.scrollTo({
+    top: mealsSection.offsetTop,
+    behavior: 'smooth'
+  });
+});
+
+
+
+
