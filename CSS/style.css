@@ -5,7 +5,8 @@ body, html {
 }
 
 .nav-bar{
-    background-color: grey;
+   background-color: grey;
+   background-color: rgba(200, 200, 200, 0.5);
    box-sizing: border-box;
    position: absolute;
    top: 0;
@@ -29,6 +30,15 @@ nav a{
 
 }
 
+nav a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+ 
+nav a:hover {
+    color: #ff4500;
+  }
 
 
 .lobby {
