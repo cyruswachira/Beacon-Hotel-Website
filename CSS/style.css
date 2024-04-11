@@ -4,7 +4,32 @@ body, html {
     padding: 0;
 }
 
-.
+.nav-bar{
+    background-color: grey;
+   box-sizing: border-box;
+   position: absolute;
+   top: 0;
+   right: 0;
+   padding: 20px;
+   margin: 20px;
+   width: 500px;
+   border-radius: 20px;
+   
+}
+
+nav a{
+    position: relative;
+    display: inline-block;
+    font-size: 1em;
+    font-weight: 800;
+    color: azure;
+    text-decoration: none;
+    padding: 0 25px;
+    z-index: 1;
+
+}
+
+
 
 .lobby {
     height: 100vh; 
@@ -33,13 +58,13 @@ body, html {
 }
 
 .logo img {
-    width: 100px; 
+    width: 110px; 
     height: auto;
 }
 
 .hotel-name {
     position: absolute;
-    top: 20px;
+    top: 50px;
     left: 150px;
     display: flex;
     z-index: 2; 
