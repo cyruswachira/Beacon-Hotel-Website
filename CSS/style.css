@@ -48,19 +48,19 @@ body, html {
     
 }
 
-.about-place {
+.place {
     background-color:#044;
     padding: 50px 20px;
     text-align: center;
 }
 
-.about-logo{
+.place-logo{
     z-index: 2; 
     opacity: 0.5;
     
 }
 
-.about-logo img{
+.place-logo img{
     width: 100px; 
     height: auto;
 } 
@@ -83,7 +83,7 @@ body, html {
     color: white;
 }
 
-.about-image{
+.place-image{
     width: 150%; 
     max-width: 800px; 
     margin-bottom: 50;
@@ -190,43 +190,23 @@ body, html {
 
 .hotel{
     background-color: #044;
-    padding: 700px 100px;
+    padding: 0px 100px;
 }
 
-.about-section {
-    background-color:black;
-    padding: 50px 0;
-  }
-  
-  .about-section h2 {
-    font-size: 36px;
-    font-weight: 700;
-    margin-bottom: 20px;
-  }
-  
-  .about-section p {
-    font-size: 18px;
-    line-height: 1.5;
-    margin-bottom: 30px;
-  }
-  
-  .about-section.btn {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-  }
-  
-  .about-section.btn:hover {
-    background-color: #555;
-  }
-  
-  .about-section img {
-    width: 100%;
-    height: auto;
-  }
+.about-container{
+    height: 100vh; 
+    background-image: url(/Assets/hotel\ .jpg); 
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
 
 
 
