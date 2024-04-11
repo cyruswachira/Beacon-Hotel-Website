@@ -103,6 +103,29 @@ menuButton.addEventListener('click', () => {
   });
 });
 
+const menulink =  document.querySelector('.menu-link')
+
+menulink.addEventListener('click', () => {
+   const mealsSection = document.getElementById('meals');
+   window.scrollTo({
+     top: mealsSection.offsetTop,
+     behavior: 'smooth'
+   });
+ menulink.classList.add('active')
+})
+
+const aboutlink = document.querySelector('.about-link')
+
+aboutlink.addEventListener('click', () =>{
+   const aboutSection = document.querySelector('.about-container');
+   window.scrollTo({
+     top: aboutSection.offsetTop,
+     behavior: 'smooth'
+   });
+   aboutlink.classList.add('active')
+
+})
+
 
 
 
