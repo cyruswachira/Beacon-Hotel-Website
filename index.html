@@ -20,10 +20,10 @@
     <header class="lobby">
       <div class="nav-bar">
         <nav class="nav-item">
-        <a href="#">HOME</a>
+        <a class="home-link" href="#">HOME</a>
         <a class="menu-link" href="#">MENU</a>
         <a class="about-link" href="#">ABOUT</a>
-        <a href="#">CONTACT</a>
+        <a class="contact-link" href="#">CONTACT</a>
       </nav>
       </div>
       <div class="logo">
@@ -58,11 +58,13 @@
 
     <section class="hotel-menu">
       <div>
+        <div class="order">
         <img src="/Assets/menu.jpg" alt="hotel menu" />
-
+        
         <h1 class="text-overlay">EAT & DRINK</h1>
 
         <button class="view-button">VIEW OUR MENU</button>
+      </div>
       </div>
     </section>
 
@@ -119,6 +121,16 @@
     </section>
 
     <section class="contact-container">
+      <h1>Contact Us</h1>
+      <div class="form-container">
+        <h2>Talk To Us</h2>
+        <form action="#" method="post">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <input type="submit" value="Send Message">
+        </form>
+    </div>
 
     </section>
 

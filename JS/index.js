@@ -106,7 +106,7 @@ menuButton.addEventListener('click', () => {
 const menulink =  document.querySelector('.menu-link')
 
 menulink.addEventListener('click', () => {
-   const mealsSection = document.getElementById('meals');
+   const mealsSection = document.querySelector('.hotel-menu');
    window.scrollTo({
      top: mealsSection.offsetTop,
      behavior: 'smooth'
@@ -124,6 +124,30 @@ aboutlink.addEventListener('click', () =>{
    });
    aboutlink.classList.add('active')
 
+})
+
+const homelink = document.querySelector('.home-link')
+
+homelink.addEventListener('click', () =>{
+
+   const homeSection = document.querySelector('.lobby');
+   window.scrollTo({
+      top: homeSection.offsetTop,
+      behavior: 'smooth'
+   })
+   homelink.classList.add('active')
+})
+
+const contactlink = document.querySelector('.contact-link')
+
+contactlink.addEventListener('click', () =>{
+
+   const contactSection = document.querySelector('.contact-container');
+   window.scrollTo({
+      top: contactSection.offsetTop,
+      behavior: 'smooth'
+   })
+   contactlink.classList.add('active')
 })
 
 
