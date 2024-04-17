@@ -5,7 +5,7 @@ document .addEventListener('DOMContentLoaded', () => {
 
 })
 
-const BASE_URL = 'www.themealdb.com/api/json/v1/1/categories.php'
+const BASE_URL = 'http://localhost:3000/categories'
 
 
 function fetchMeals(){

@@ -5,7 +5,7 @@
 #### By *CYRUS MUGO WACHIRA*
 
 ## Description
-It's a webpage that shows clients a hotel details what the hotel offers and also it show case it menu where an order can be placed to be served to you at the hotel.
+It's a webpage that shows clients a hotel and also it show case it menu where an order can be placed to be served to you at the hotel.The meals are fetched from an API (www.themealdb.com/api/json/v1/1/categories.php)Then i use Thunder client to test the API and then get the details of the API to see my meals which then i copy the details to my db.json file and then i use javascript inside my JS folder to fetch the data from the db.json file and then display it on my webpage.
 
 ## Live Demo
 [Live Demo Link](https://beacon-hotel-website.vercel.app/)
@@ -31,9 +31,6 @@ Git clone https://github.com/cyruswachira/Beacon-Hotel-Website.git
 
 Open the index.html file in your browser.
 ```
-
-# Live Link
-https://cyruswachira.github.io/Beacon-Hotel-Website/
 
 ## Technologies used
 HTML
