@@ -7,6 +7,9 @@
 ## Description
 It's a webpage that shows clients a hotel details what the hotel offers and also it show case it menu where an order can be placed to be served to you at the hotel.
 
+## Live Demo
+[Live Demo Link](https://beacon-hotel-website.vercel.app/)
+
 ## Installation
 I created my own folder project using the terminal and used the visual studio code to add my html , css , js and db.json file then i pushed my project to my own github repository.
 
